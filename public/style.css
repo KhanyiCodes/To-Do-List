@@ -27,9 +27,9 @@
   
   h1 {
     font-size: 2rem;
-    color: #39FF14;
+    color: #ff14f3;
     margin-bottom: 20px;
-    text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14, 0 0 30px #39FF14;
+   
   }
   
   .message {
@@ -42,33 +42,33 @@
   input {
     width: 80%;
     padding: 12px;
-    border: 2px solid #39FF14;
+    border: 2px solid #2d6e21;
     background-color: #222;
     color: white;
     font-size: 1rem;
     border-radius: 5px;
     outline: none;
-    box-shadow: 0 0 10px #39FF14;
+    box-shadow: 0 0 10px #2d6e21;
   }
   
   input:focus {
-    box-shadow: 0 0 15px #39FF14;
+    box-shadow: 0 0 15px #2d6e21;
   }
   
   button {
     padding: 12px;
     border-radius: 5px;
     color: white;
-    background-color: #39FF14;
+    background-color: #2d6e21;
     border: none;
     font-size: 1rem;
     cursor: pointer;
-    box-shadow: 0 0 10px #39FF14;
+    box-shadow: 0 0 10px #2d6e21;
     transition: all 0.3s;
   }
   
   button:hover {
-    background-color: #32cc11;
+    background-color: #2d6e21;
   }
   
   button.delete {
@@ -80,7 +80,7 @@
   }
   
   button.completed {
-    background-color: #00FFFF;
+    background-color: #0ebebe;
   }
   
   button.completed:hover {
@@ -105,11 +105,11 @@
   }
   
   button.complete {
-    background-color: #00FF00;
+    background-color: #2d6e21;
   }
   
   button.complete:hover {
-    background-color: #00CC00;
+    background-color: #2d6e21;
   }
   
   input.completed {
@@ -122,7 +122,7 @@
   }
   
   h2 {
-    color: #39FF14;
+    color: #2d6e21;
     margin-bottom: 10px;
   }
   
