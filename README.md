@@ -1,40 +1,43 @@
-# ToDo List App
+# To-Do List Project 🌐
+ 
+Welcome to To-Do List Project! 
+This project showcases my skills as a creative developer and how i can make simple web applications look and feel engaging
+ 
+## 🖥️ Overview
+ 
+A simple to-do list application to add, remove, and mark tasks as completed. This project uses HTML, CSS, and JavaScript.
+ 
+## 🛠️ Built With
+ 
+This project was built using the following front end technologies:
+ 
+- **HTML5**: Structuring the content.
+- **CSS3**: Styling and layout design.
+- **Visual Studio Code**: Primary code editor.
+ 
+##  Resources
+ 
+This project was built using the following back-end technologies:
+ 
+- JavaScript ES6
+- Node.js
+- JSON
+- NPM modules
+## 🌟 Features
+ 
+- Add tasks to the list
+- Remove tasks from the list
+- Mark tasks as completed
+## 📂 Folder Structure
+ 
+```plaintext
+ToDoListProject
+├── public
+│   ├── index.html          # Frontend HTML file
+│   ├── style.css           # CSS for styling
+│   └── script.js           # Frontend JavaScript file
+├── server.js               # Node.js backend server
+├── package.json            # Node.js project file
+├── README.md               # Project description
+└── .gitignore              # Files to ignore in Git
 
-## Description
-
-This ToDo List app is a simple and elegant task management tool built with JavaScript, HTML, and CSS. It allows users to create, toggle, and delete tasks, as well as keep track of completed tasks. The app interacts with a backend API to fetch and manipulate tasks.
-
-### Features:
-- **Add new tasks**
-- **Mark tasks as complete**
-- **Delete tasks**
-- **Display tasks in two lists**: "To-Do" and "Completed"
-- **Server communication** using `fetch()` for CRUD operations (Create, Read, Update, Delete)
-
----
-
-## Technologies Used
-
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: (Expected) Server API for handling tasks (assumed `/api/tasks` endpoints)
-- **Styling**: Custom CSS with responsive layout and animations
-- **Browser Compatibility**: Works in modern web browsers (Chrome, Firefox, Safari, Edge)
-
----
-
-## Installation:
-
-1. Clone the repository to your local machine:
-
-```bash
-git clone https://github.com/khanyicodes/todo-list-app.git
-
-## Usage
-
-![image](https://github.com/user-attachments/assets/8c774d47-f094-4766-9d9a-4090588be731)
-
-![image](https://github.com/user-attachments/assets/e39f55ea-5483-4bd5-b0ad-0e2317d50f0d)
-
-![image](https://github.com/user-attachments/assets/3c2bb006-fd2d-4a24-88a3-99dd0107116c)
-
-Email: rebaone02khanyi@gamil.com
