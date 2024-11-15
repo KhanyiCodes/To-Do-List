@@ -1,0 +1,139 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111;
+    color: white;
+    text-align: center;
+  }
+  
+  .app {
+    width: 80%;
+    max-width: 600px;
+    background-color: #222;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #ff14f3;
+    margin-bottom: 20px;
+   
+  }
+  
+  .message {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  input {
+    width: 80%;
+    padding: 12px;
+    border: 2px solid #2d6e21;
+    background-color: #222;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 10px #2d6e21;
+  }
+  
+  input:focus {
+    box-shadow: 0 0 15px #2d6e21;
+  }
+  
+  button {
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    background-color: #2d6e21;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px #2d6e21;
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2d6e21;
+  }
+  
+  button.delete {
+    background-color: #FF0033;
+  }
+  
+  button.delete:hover {
+    background-color: #cc0022;
+  }
+  
+  button.completed {
+    background-color: #0ebebe;
+  }
+  
+  button.completed:hover {
+    background-color: #00B3B3;
+  }
+  
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .task-card {
+    background-color: #444;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #444;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  button.complete {
+    background-color: #2d6e21;
+  }
+  
+  button.complete:hover {
+    background-color: #2d6e21;
+  }
+  
+  input.completed {
+    text-decoration: line-through;
+    color: #AAAAAA;
+  }
+  
+  .todo-container, .completed-container {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    color: #2d6e21;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: white;
+    line-height: 1.6;
+    margin: 20px 0;
+    font-size: 16px;
+    max-width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
