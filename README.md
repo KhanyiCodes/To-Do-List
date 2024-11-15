@@ -29,6 +29,8 @@ This ToDo List app is a simple and elegant task management tool built with JavaS
 ```bash
 git clone https://github.com/khanyicodes/todo-list-app.git
 
+## Usage
+
 ![image](https://github.com/user-attachments/assets/8c774d47-f094-4766-9d9a-4090588be731)
 
 ![image](https://github.com/user-attachments/assets/e39f55ea-5483-4bd5-b0ad-0e2317d50f0d)
